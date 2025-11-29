@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Mock API for quiz questions using json-server",
   "scripts": {
-    "start": "json-server --host 0.0.0.0 --watch questions.json --port $PORT"
+    "start": "json-server --host 0.0.0.0 --watch questions.json --port $PORT",
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "json-server": "^0.17.4"
