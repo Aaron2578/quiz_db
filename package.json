@@ -1,10 +1,10 @@
 {
   "name": "quiz-api-server",
   "version": "1.0.0",
-  "description": "Mock API for quiz questions using json-server",
+  "description": "Mock API using json-server",
   "scripts": {
-    "start": "json-server --host 0.0.0.0 --watch questions.json --port $PORT",
-    "server": "json-server --host 0.0.0.0 --watch questions.json --port $PORT",
+    "start": "npx json-server --host 0.0.0.0 --watch questions.json --port $PORT",
+    "server": "npx json-server --host 0.0.0.0 --watch questions.json --port $PORT",
     "build": "echo 'No build step required'"
   },
   "dependencies": {
