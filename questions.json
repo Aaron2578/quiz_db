@@ -1,6 +1,4 @@
-Here’s your 30 beginner Python questions in the **React-style quiz JSON format** you shared (with `correctOption` as the index and `points` included):
 
-```{"id":"92343","variant":"standard"}
 {
   "questions": [
     {
@@ -192,3 +190,4 @@ Here’s your 30 beginner Python questions in the **React-style quiz JSON format
   ]
 }
 ```
+
