@@ -1,194 +1,359 @@
-
-{
-  "questions": [
-    {
-      "question": "What is the correct syntax to output 'Hello, Python'?",
-      "options": ["echo 'Hello, Python'", "print('Hello, Python')", "printf('Hello, Python')", "cout << 'Hello, Python'"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which symbol is used for comments in Python?",
-      "options": ["//", "#", "/* */", "<!-- -->"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "How do you create a variable with the value 5?",
-      "options": ["x = 5", "int x = 5", "x := 5", "var x = 5"],
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which of these is a valid data type in Python?",
-      "options": ["integer", "float", "string", "All of the above"],
-      "correctOption": 3,
-      "points": 10
-    },
-    {
-      "question": "What is the output of: print(2 + 3 * 2)?",
-      "options": ["10", "8", "7", "12"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which of the following is used for exponentiation in Python?",
-      "options": ["^", "**", "%", "//"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "How do you get input from the user?",
-      "options": ["input()", "scanf()", "cin", "get()"],
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which of the following is a sequence type in Python?",
-      "options": ["list", "tuple", "string", "All of the above"],
-      "correctOption": 3,
-      "points": 10
-    },
-    {
-      "question": "How do you check the type of a variable x?",
-      "options": ["typeof(x)", "type(x)", "checktype(x)", "var_type(x)"],
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which of these is mutable?",
-      "options": ["list", "tuple", "string", "int"],
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "What is the correct file extension for Python files?",
-      "options": [".py", ".python", ".pyt", ".pt"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which keyword is used to define a function in Python?",
-      "options": ["function", "def", "fun", "define"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "How do you start an if statement in Python?",
-      "options": ["if x == y:", "if x == y then", "if (x == y)", "if x = y"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "What will print(len('Python')) output?",
-      "options": ["5", "6", "7", "Error"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which operator is used for floor division?",
-      "options": ["/", "//", "%", "**"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which of these is used to terminate a loop prematurely?",
-      "options": ["stop", "break", "exit", "terminate"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "What is the output of print(10 % 3)?",
-      "options": ["3", "1", "0", "10"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which keyword is used for exception handling?",
-      "options": ["catch", "try", "except", "error"], 
-      "correctOption": 2,
-      "points": 10
-    },
-    {
-      "question": "How do you create a list in Python?",
-      "options": ["[]", "{}", "()", "<>"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which method adds an element to the end of a list?",
-      "options": ["append()", "add()", "insert()", "extend()"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "How do you write a loop that runs 5 times?",
-      "options": ["for i in range(5):", "for i = 1 to 5:", "loop 5 times", "repeat 5 times"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which of these converts a string '5' to an integer?",
-      "options": ["int('5')", "str(5)", "float('5')", "convert('5')"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which logical operator means 'and'?",
-      "options": ["and", "&&", "or", "&"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which symbol is used for multiplication?",
-      "options": ["*", "x", "mul", "%"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "What will print(3 == 3) output?",
-      "options": ["True", "False", "3", "Error"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which of these is a Python keyword?",
-      "options": ["if", "then", "repeat", "until"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "How do you create a tuple?",
-      "options": ["()", "[]", "{}", "<>"], 
-      "correctOption": 0,
-      "points": 10
-    },
-    {
-      "question": "Which method removes the last element from a list?",
-      "options": ["remove()", "pop()", "delete()", "discard()"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which of these is used for single-line comments?",
-      "options": ["//", "#", "/* */", "--"], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "Which operator checks for equality?",
-      "options": ["=", "==", "!=", "<="], 
-      "correctOption": 1,
-      "points": 10
-    },
-    {
-      "question": "What is the output of print('Hello' + 'World')?",
-      "options": ["Hello World", "HelloWorld", "Hello+World", "Error"], 
-      "correctOption": 1,
-      "points": 10
-    }
-  ]
-}
-
-
-
+[
+  {
+    "question": "Which table stores the controlling area details in SAP FICO?",
+    "options": ["TKA01", "BKPF", "SKA1", "CEPC"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "TKA01 stores Controlling Area master data."
+  },
+  {
+    "question": "Which transaction is used for foreign currency valuation in SAP?",
+    "options": ["F.05", "F110", "OB52", "FBRA"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "F.05 is used for foreign currency valuation."
+  },
+  {
+    "question": "What is the purpose of document splitting in New GL?",
+    "options": ["Tax calculation", "Parallel accounting", "Segment reporting", "Asset depreciation"],
+    "correctOption": 2,
+    "points": 1,
+    "solution": "Document splitting enables segment-wise financial reporting."
+  },
+  {
+    "question": "Which configuration defines tolerance groups for employees?",
+    "options": ["OBA4", "OBA3", "OB57", "OBB8"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "OBA4 is used to define tolerance groups for employees."
+  },
+  {
+    "question": "Which transaction is used to reset cleared items?",
+    "options": ["FBRA", "F-44", "FBL1N", "OB09"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FBRA resets cleared accounting documents."
+  },
+  {
+    "question": "Which table stores accounting document headers?",
+    "options": ["BSEG", "BKPF", "BSIS", "COEP"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "BKPF stores accounting document header details."
+  },
+  {
+    "question": "Which transaction is used for recurring entries?",
+    "options": ["FBD1", "F-02", "OBYC", "FS00"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FBD1 creates recurring entry original documents."
+  },
+  {
+    "question": "Which integration setting links MM and FI automatically?",
+    "options": ["OBYC", "OB52", "OKB9", "FSP0"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "OBYC configures automatic account determination."
+  },
+  {
+    "question": "Which ledger is standard in SAP S/4HANA?",
+    "options": ["0L", "SL", "GL", "NL"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "0L is the leading ledger in S/4HANA."
+  },
+  {
+    "question": "Which transaction is used for APP configuration?",
+    "options": ["FBZP", "F110", "OBB8", "OBYC"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FBZP is used to configure Automatic Payment Program."
+  },
+  {
+    "question": "What is the maximum number of posting periods normally open in SAP?",
+    "options": ["2", "12", "16", "Unlimited"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "Normally current and special periods are open together."
+  },
+  {
+    "question": "Which table stores line items of accounting documents?",
+    "options": ["BKPF", "BSEG", "SKB1", "ANEP"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "BSEG stores accounting document line items."
+  },
+  {
+    "question": "Which transaction is used for parked document posting?",
+    "options": ["FBV0", "F-90", "F.13", "OB08"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FBV0 posts parked documents."
+  },
+  {
+    "question": "What is the use of special periods in SAP?",
+    "options": ["Asset sale", "Year-end adjustments", "Tax posting", "Profit center posting"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Special periods are used for year-end closing adjustments."
+  },
+  {
+    "question": "Which transaction code maintains exchange rates?",
+    "options": ["OB08", "OB52", "F-53", "OBYC"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "OB08 is used for exchange rate maintenance."
+  },
+  {
+    "question": "Which object controls field status during posting?",
+    "options": ["Field Status Group", "Posting Key", "Document Type", "All of these"],
+    "correctOption": 3,
+    "points": 1,
+    "solution": "All these objects influence field status."
+  },
+  {
+    "question": "Which transaction is used for GR/IR clearing?",
+    "options": ["F.13", "MR11", "F110", "OB09"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "MR11 clears GR/IR differences."
+  },
+  {
+    "question": "Which depreciation area posts in real time to GL?",
+    "options": ["01", "15", "20", "30"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "Area 01 is book depreciation posting area."
+  },
+  {
+    "question": "What is the purpose of validation in SAP FI?",
+    "options": ["Tax update", "Control incorrect postings", "Asset capitalization", "Profit center creation"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Validation prevents incorrect postings."
+  },
+  {
+    "question": "Which transaction creates a dunning run?",
+    "options": ["F150", "F110", "OB61", "FBRA"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "F150 is used for dunning process."
+  },
+  {
+    "question": "Which organizational unit is mandatory for asset accounting?",
+    "options": ["Plant", "Company Code", "Sales Org", "Purchase Org"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Asset Accounting is company code dependent."
+  },
+  {
+    "question": "Which transaction is used for customer incoming payments?",
+    "options": ["F-28", "F-53", "FB60", "F110"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "F-28 posts customer incoming payments."
+  },
+  {
+    "question": "Which transaction displays G/L account balances?",
+    "options": ["FS00", "FBL3N", "FD32", "OBYC"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "FBL3N displays G/L line items and balances."
+  },
+  {
+    "question": "What is the purpose of substitution in SAP?",
+    "options": ["Delete posting", "Replace field values automatically", "Clear open items", "Run depreciation"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Substitution replaces values during document posting."
+  },
+  {
+    "question": "Which transaction is used for vendor invoice posting?",
+    "options": ["FB60", "F-90", "F-02", "F110"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FB60 posts vendor invoices."
+  },
+  {
+    "question": "Which account type is used for one-time vendors?",
+    "options": ["CPD", "KRED", "D", "A"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "CPD account group is used for one-time vendors."
+  },
+  {
+    "question": "Which transaction reverses an FI document?",
+    "options": ["FB08", "FBRA", "F-03", "F110"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FB08 reverses accounting documents."
+  },
+  {
+    "question": "Which component handles internal reporting in SAP?",
+    "options": ["FI", "CO", "MM", "SD"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "CO handles internal management reporting."
+  },
+  {
+    "question": "Which transaction is used for manual outgoing payments?",
+    "options": ["F-53", "F-28", "FB70", "F110"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "F-53 posts outgoing vendor payments."
+  },
+  {
+    "question": "What is the use of retained earnings account?",
+    "options": ["Profit carry forward", "Tax adjustment", "Asset acquisition", "Vendor reconciliation"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "Retained earnings carry forward P&L balances."
+  },
+  {
+    "question": "Which transaction is used for depreciation posting?",
+    "options": ["AFAB", "AS01", "AW01N", "F-90"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "AFAB posts depreciation to FI."
+  },
+  {
+    "question": "Which posting key is commonly used for vendor credit posting?",
+    "options": ["21", "31", "40", "50"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Posting key 31 is vendor credit posting."
+  },
+  {
+    "question": "Which transaction displays asset values?",
+    "options": ["AW01N", "AS03", "AFAB", "FBL5N"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "AW01N displays asset explorer details."
+  },
+  {
+    "question": "Which SAP object controls number ranges for FI documents?",
+    "options": ["Document Type", "Posting Key", "Field Status Variant", "Fiscal Year Variant"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "Document type controls document number ranges."
+  },
+  {
+    "question": "Which transaction code is used for customer credit management?",
+    "options": ["FD32", "XD01", "F110", "OB08"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FD32 manages customer credit limits."
+  },
+  {
+    "question": "What is the purpose of reconciliation accounts?",
+    "options": ["Tax posting", "Automatic subledger update to GL", "Asset reporting", "Cost allocation"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Reconciliation accounts integrate subledgers with GL."
+  },
+  {
+    "question": "Which transaction creates asset master data?",
+    "options": ["AS01", "AW01N", "AFAB", "F-90"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "AS01 creates asset master records."
+  },
+  {
+    "question": "Which transaction is used for accrual postings?",
+    "options": ["FBS1", "F110", "OBYC", "FBRA"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FBS1 creates accrual/deferral postings."
+  },
+  {
+    "question": "Which fiscal year variant allows non-calendar year posting?",
+    "options": ["K4", "V3", "CY", "FY"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "V3 supports non-calendar fiscal year."
+  },
+  {
+    "question": "Which report checks balance consistency in FI?",
+    "options": ["RFSEPA01", "RFINDEX", "FBL3N", "S_ALR_87012277"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "RFINDEX checks database consistency."
+  },
+  {
+    "question": "Which transaction is used for lockbox processing?",
+    "options": ["FLB1", "F110", "FB05", "OB52"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FLB1 processes lockbox files."
+  },
+  {
+    "question": "What is the purpose of noted items?",
+    "options": ["Statistical postings", "Real postings", "Asset postings", "Tax postings"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "Noted items are statistical and do not update accounts."
+  },
+  {
+    "question": "Which transaction creates sample documents?",
+    "options": ["F-01", "FBM1", "FB50", "F110"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "FBM1 creates sample accounting documents."
+  },
+  {
+    "question": "Which SAP table stores vendor master general data?",
+    "options": ["LFA1", "LFB1", "KNA1", "BSIK"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "LFA1 stores vendor general data."
+  },
+  {
+    "question": "Which transaction is used for automatic payment run?",
+    "options": ["F110", "F150", "F-53", "FBRA"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "F110 executes automatic payments."
+  },
+  {
+    "question": "Which account assignment object is mandatory in Profit Center Accounting?",
+    "options": ["Plant", "Profit Center", "Sales Area", "Storage Location"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "Profit center is mandatory for PCA reporting."
+  },
+  {
+    "question": "Which transaction displays customer line items?",
+    "options": ["FBL5N", "FBL1N", "FD32", "FB03"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FBL5N displays customer line items."
+  },
+  {
+    "question": "Which depreciation key controls asset depreciation calculation?",
+    "options": ["AFAMA", "AFAMS", "OADB", "AO90"],
+    "correctOption": 1,
+    "points": 1,
+    "solution": "AFAMS defines depreciation keys."
+  },
+  {
+    "question": "Which transaction is used to maintain posting periods?",
+    "options": ["OB52", "OB08", "FBZP", "OBA7"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "OB52 controls posting period variants."
+  },
+  {
+    "question": "Which integration exists between CO and FI during primary cost posting?",
+    "options": ["Real-time update", "Manual update", "Batch update", "No integration"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FI and CO update simultaneously during primary postings."
+  },
+  {
+    "question": "Which transaction is used for GL account creation centrally?",
+    "options": ["FS00", "FSP0", "OBD4", "F-02"],
+    "correctOption": 0,
+    "points": 1,
+    "solution": "FS00 creates GL accounts centrally."
+  }
+]
